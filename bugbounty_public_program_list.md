@@ -1,6 +1,6 @@
 # Bug bounty public program list  
 > Here you can find a list of different ways to find public programs of bug bounty.
-If you have questions or suggestions, don't hesitate to contact me on twitter (https://twitter.com/_sehno_)  
+If you have questions or suggestions, don't hesitate to contact me on twitter (https://twitter.com/alexuuhat)  
 
 ***
 
