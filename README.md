@@ -11,9 +11,10 @@ In this repository, you will find:
 - **Techniques**: Techniques and methodologies for identifying vulnerabilities and exploiting them.
 
 Go - to:
-Bug Bounty Checklist 
 - Go to the [BugBounty Checklist page](https://github.com/alexuuhat/BugBounty/blob/main/bugbounty_checklist.md).
-- - Go to the [BugBounty Public Program _list](https://github.com/alexuuhat/BugBounty/blob/main/bugbounty_public_program_list.md)
+- Go to the [BugBounty Public Program _list](https://github.com/alexuuhat/BugBounty/blob/main/bugbounty_public_program_list.md)
+
+
 ## Contributing
 
 We welcome contributions from the community! If you have scripts, tools, or techniques that you believe would benefit others in the bug bounty community, please follow these steps to contribute:
