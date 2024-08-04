@@ -1,7 +1,7 @@
 # Bug bounty toolkit  
 > Here you can find a list of differents tools that you can use in bug bounty or pentesting.  
 Some categories and tools will be added as we go.  
-If you have questions or suggestions, don't hesitate to contact me on twitter (https://twitter.com/_sehno_)  
+If you have questions or suggestions, don't hesitate to contact me on twitter (https://twitter.com/alexuuhat)  
 
 ***
 
